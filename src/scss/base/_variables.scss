@@ -1,0 +1,18 @@
+// Colors
+$colorDarkBlue: hsl(233, 26%, 24%);
+$colorLimeGreen: hsl(136, 65%, 51%);
+$colorBrightCyan: hsl(192, 70%, 51%);
+$colorGrayishBlue: hsl(233, 8%, 62%);
+$colorLightGrayishBlue: hsl(220, 16%, 96%);
+$colorLightGray: hsl(0, 0%, 98%);
+$colorWhite: hsl(0, 0%, 100%);
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+$font: 'Public Sans', sans-serif;
+$fontLight: 300;
+$fontNormal: 400;
+$fontBold: 700;
+
+// Separation
+$separation: 5rem;

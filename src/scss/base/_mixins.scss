@@ -1,0 +1,24 @@
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 1400px) {
+        @content;
+    }
+}
+
+
+@mixin grid($columns, $gap) {
+    display: grid;
+    grid-template-columns: $columns;
+    gap: $gap;
+}
