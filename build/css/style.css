@@ -414,7 +414,6 @@ img {
 .header {
   position: fixed;
   width: 100%;
-  height: 7rem;
   z-index: 100;
   background: #fafafa;
 }
@@ -516,4 +515,39 @@ img {
 }
 .why__card .why__title {
   margin: 2rem 0;
+}
+
+.articles h2 {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.articles__content {
+  margin-top: 3.3333333333rem;
+}
+
+.article {
+  margin: 2.5rem 0;
+  background-color: white;
+  border-radius: 1.5%;
+  overflow: hidden;
+}
+
+.article__img img {
+  object-fit: cover;
+}
+
+.article__copy {
+  padding: 2.5rem 2.5rem 5rem 2.7777777778rem;
+}
+.article__copy .article__name {
+  font-size: 1rem;
+}
+.article__copy .article__title {
+  margin: 1rem 0;
+  font-size: 1.6rem;
+}
+.article__copy .article__text {
+  font-size: 1.3rem;
+  line-height: 1.4;
 }
