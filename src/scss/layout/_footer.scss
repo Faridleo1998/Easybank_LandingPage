@@ -1,0 +1,43 @@
+.footer {
+    border: 1px solid red;
+    padding: $separation/1.2 0;
+    background-color: $colorDarkBlue;
+    text-align: center;
+
+    .container {
+        width: 70%;
+    }
+}
+
+.social__medias {
+    margin: $separation/1.8 0;
+
+    .container {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    img {
+        width: 2.5rem;
+    }
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: $separation/2;
+
+    .footer__link {
+        padding-bottom: $separation/3;
+        color: $colorWhite;
+        font-weight: $fontLight;
+        font-size: 1.5rem;
+    }
+
+    .footer__btn {
+        width: 65%;
+        margin: $separation/2 auto 0 auto;
+    }
+}
