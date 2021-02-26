@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Easybank landing page</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./build/images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Easybank landing page</title>
+
+  <link rel="preload" href="build/css/style.min.css" as="style">
+  <link rel="stylesheet" href="build/css/style.min.css">
 </head>
-<body>
 
-  Home
+<body>
+  <header class="header">
+    menu de hamburguesa
+  </header>
+
+  <section class="hero">
+    <div class="hero__img">
+      <div class="img container">
+        <picture>
+          <source srcset="build/images/image-mockups.webp" type="image/webp">
+          <source srcset="build/images/image-mockups.png" type="image/png">
+          <img src="build/images/image-mockups.png" alt="mockups">
+        </picture>
+      </div>
+    </div>
+    <div class="container">
+      <div class="hero__text">
+        <h1>Next generation digital banking</h1>
+        <p>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving,
+          budgeting, investing, and much more.</p>
+        <a href="#" class="btn">Request Invite</a>
+      </div>
+    </div>
+  </section>
+  <!--   Home
   About
   Contact
   Blog
@@ -26,12 +48,11 @@
 
 
 
-  Next generation digital banking
+  
 
-  Take your financial life online. Your Easybank account will be a one-stop-shop 
-  for spending, saving, budgeting, investing, and much more.
+  
 
-  Request Invite
+  
 
 
 
@@ -96,6 +117,7 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
+
 </html>
