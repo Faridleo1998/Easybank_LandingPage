@@ -12,17 +12,29 @@ html {
 body {
     font-family: $font;
     font-size: 1.8rem;
-    line-height: 1.5;
+    
+    color: $colorGrayishBlue;
+    width: 100vw;
+    background-color: $colorLightGray;
 }
 
 h1,
 h2,
 h3 {
     color: $colorDarkBlue;
+    font-weight: $fontNormal;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
 }
 
 p {
     color: $colorGrayishBlue;
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.7;
 }
 
 a {
