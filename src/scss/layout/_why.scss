@@ -1,0 +1,29 @@
+.why {
+    background-color: $colorLightGrayishBlue;
+}
+
+.why__copy {
+    text-align: center;
+    padding-top: $separation/2.5 ;
+
+    p {
+        margin-top: $separation/3;
+    }
+}
+
+.why__content {
+    margin-top: $separation*1.1;
+}
+
+.why__card {
+    text-align: center;
+    margin: $separation/1.5 0;
+
+    .why__img {
+        width: 22%;
+    }
+
+    .why__title {
+        margin: $separation/2.5 0;
+    }
+}
