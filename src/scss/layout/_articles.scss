@@ -1,0 +1,42 @@
+.articles {
+    
+    h2 {
+        text-align: center;
+        margin-top: $separation;
+    }
+}
+
+.articles__content {
+    margin-top: $separation/1.5;
+}
+
+.article {
+    margin: $separation/2 0;
+    background-color: $colorWhite;
+    border-radius: 1.5%;
+    overflow: hidden;
+}
+
+.article__img {
+    img {
+        object-fit: cover;
+    }
+}
+
+.article__copy {
+    padding: $separation/2 $separation/2 $separation $separation/1.8;
+
+    .article__name {
+        font-size: 1rem;
+    }
+
+    .article__title {
+        margin: $separation/5 0;
+        font-size: 1.6rem;
+    }
+
+    .article__text {
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+}
