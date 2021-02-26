@@ -551,3 +551,42 @@ img {
   font-size: 1.3rem;
   line-height: 1.4;
 }
+
+.footer {
+  border: 1px solid red;
+  padding: 4.1666666667rem 0;
+  background-color: #2d314d;
+  text-align: center;
+}
+.footer .container {
+  width: 70%;
+}
+
+.social__medias {
+  margin: 2.7777777778rem 0;
+}
+.social__medias .container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social__medias img {
+  width: 2.5rem;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+}
+.footer__nav .footer__link {
+  padding-bottom: 1.6666666667rem;
+  color: white;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.footer__nav .footer__btn {
+  width: 65%;
+  margin: 2.5rem auto 0 auto;
+}
