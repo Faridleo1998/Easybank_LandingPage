@@ -3,3 +3,12 @@
     width: 90%;
     margin: 0 auto;
 }
+
+.btn {
+    background: linear-gradient(to right, $colorLimeGreen 0%, $colorBrightCyan 100%);
+    color: $colorWhite;
+    font-size: 1.4rem;
+    padding: $separation/3.5 $separation/1.5;
+    border-radius: $separation;
+    font-weight: $fontBold;
+}
