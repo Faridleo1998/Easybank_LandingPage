@@ -1,0 +1,24 @@
+.nav__content {
+    padding: $separation/2 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .nav__brand {
+        display: flex;
+    }
+
+    .nav__toggle {
+        width: 2.5rem;
+        height: 2rem;
+        object-fit: contain;
+    }
+}
+
+.nav__links {
+    display: none;
+}
+
+.nav__btn {
+    display: none;
+}
