@@ -1,53 +1,93 @@
 .header {
-    position: fixed;
-    width: 100%;
-    height: 7rem;
-    z-index: 100;
-    background: $colorLightGray;
+    position: relative;
 
-    .container {
-        width: 85%;
+    @include laptop {
+        height: 70vh;
+    }
+
+    .header__background {
+        background-image: url(../images/bg-intro-mobile.svg);
+        height: 28.9rem;
+        background-position-y: (-$separation*1.15);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        @include laptop {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 60%;
+            background-image: url(../images/bg-intro-desktop.svg);
+            background-position-x: $separation+2;
+            background-size: 93rem;
+            background-position-y: (-($separation*4)+1);
+        }
+
+        @include desktop {
+            width: 55%;
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            width: 95%;
+            height: 100%;
+            margin: 0 auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: -12.9rem;
+
+
+            @include laptop {
+                width: 100%;
+                background-position-y: -11rem;
+                background-size: 62rem;
+                background-position-x: 27rem;
+                height: 61.7rem;
+            }
+        }
+    }
+}
+
+.webp {
+    .header__background {
+
+        &::after {
+            background-image: url(../images/image-mockups.webp);
+        }
+    }
+}
+
+.no-webp {
+    .header__background {
+        
+        &::after {
+            background-image: url(../images/image-mockups.png);
+        }
     }
 }
 
 .header__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: $separation/2 0;
-
-    .header__brand {
+    @include laptop {
         display: flex;
-    }
-
-    .header__toggle {
-        width: 3rem;
-        height: 2rem;
-        background-image: url(../images/icon-hamburger.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: right;
-    }
-
-    .header__btn {
-        display: none;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
     }
 }
 
-.nav {
-    position: absolute;
-    display: none; //display: flex para mostrar
-    flex-direction: column;
-    gap: $separation/2;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 86%;
-    background-color: $colorLightGray;
-    height: fit-content;
-    padding: $separation/1.9 0;
+.header__text {
     text-align: center;
-    border-radius: 2%;
-    margin: $separation*1.9 auto 0 auto;
+    margin-top: $separation/1.3;
+    margin-bottom: $separation*1.5;
+
+    @include laptop {
+        width: 32%;
+        text-align: left;
+    }
+
+    p {
+        margin: $separation/2.5 0 $separation/1.5 0;
+    }
 }
