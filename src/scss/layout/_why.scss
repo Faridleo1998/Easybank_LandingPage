@@ -4,7 +4,21 @@
 
 .why__copy {
     text-align: center;
-    padding-top: $separation/2.5 ;
+    padding-top: $separation/2.5;
+    
+    @include laptop {
+        text-align: left;
+        width: 51%;
+        padding-top: $separation*2;
+    }
+
+    h2 {
+        margin-top: $separation/1.2;
+
+        @include desktop {
+            margin-top: 0;
+        }
+    }
 
     p {
         margin-top: $separation/3;
@@ -13,11 +27,20 @@
 
 .why__content {
     margin-top: $separation*1.1;
+
+    @include laptop {
+        @include grid(4, $separation + .4);
+        padding-bottom: $separation*2;
+    }
 }
 
 .why__card {
     text-align: center;
     margin: $separation/1.5 0;
+
+    @include laptop {
+        text-align: left;
+    }
 
     .why__img {
         width: 22%;

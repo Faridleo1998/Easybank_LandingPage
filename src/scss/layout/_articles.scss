@@ -3,11 +3,19 @@
     h2 {
         text-align: center;
         margin-top: $separation;
+
+        @include laptop {
+            text-align: left;
+        }
     }
 }
 
 .articles__content {
     margin-top: $separation/1.5;
+
+    @include laptop {
+        @include grid(4, $separation/2);
+    }
 }
 
 .article {
@@ -15,6 +23,10 @@
     background-color: $colorWhite;
     border-radius: 1.5%;
     overflow: hidden;
+
+    @include laptop {
+        margin-bottom: $separation*1.5;
+    }
 }
 
 .article__img {
@@ -25,6 +37,10 @@
 
 .article__copy {
     padding: $separation/2 $separation/2 $separation $separation/1.8;
+
+    @include laptop {
+        padding-bottom: $separation/3;
+    }
 
     .article__name {
         font-size: 1rem;

@@ -1,3 +1,7 @@
+.nav{
+    width: 100%;
+}
+
 .nav__content {
     padding: $separation/2 0;
     display: flex;
@@ -12,13 +16,62 @@
         width: 2.5rem;
         height: 2rem;
         object-fit: contain;
+
+        @include laptop {
+            display: none;
+        }
     }
 }
 
 .nav__links {
-    display: none;
+    position: absolute;
+    display: none; // Display: flex para mostrar el menú movil
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: $separation*1.7 auto 0 auto;
+    height: min-content;
+    text-align: center;
+    z-index: 10;
+    width: 91%;
+    background-color: $colorLightGray;
+    padding: $separation/2.5 0;
+    border-radius: 2%;
+    
+    a {
+        padding: $separation/3.6 0;
+        color: $colorDarkBlue;
+        font-size: $separation/2.7;
+    }
+
+    @include laptop {
+        position: relative;
+        display: flex;
+        gap: $separation/2;
+        padding: 0;
+        margin: 0;
+        flex-direction: row;
+        width: inherit;
+        
+        a {
+            color: $colorGrayishBlue;
+            padding: 0;
+            font-size: initial;
+        }
+    }
 }
 
 .nav__btn {
     display: none;
+
+    @include laptop {
+        display: flex;
+        margin-right: $separation/2;
+    }
+
+    @include desktop {
+        margin-right: 0;
+    }
 }

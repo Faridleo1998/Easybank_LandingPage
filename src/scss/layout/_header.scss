@@ -5,6 +5,10 @@
         height: 70vh;
     }
 
+    @include desktop {
+        height: 50vh;
+    }
+
     .header__background {
         background-image: url(../images/bg-intro-mobile.svg);
         height: 28.9rem;
@@ -19,7 +23,7 @@
             height: 100%;
             width: 60%;
             background-image: url(../images/bg-intro-desktop.svg);
-            background-position-x: $separation+2;
+            background-position-x: $separation+4;
             background-size: 93rem;
             background-position-y: (-($separation*4)+1);
         }
@@ -43,8 +47,12 @@
                 width: 100%;
                 background-position-y: -11rem;
                 background-size: 62rem;
-                background-position-x: 27rem;
+                background-position-x: 29.5rem;
                 height: 61.7rem;
+            }
+
+            @include desktop {
+                background-position-x: 28rem;
             }
         }
     }
@@ -83,7 +91,7 @@
     margin-bottom: $separation*1.5;
 
     @include laptop {
-        width: 32%;
+        width: 36%;
         text-align: left;
     }
 
