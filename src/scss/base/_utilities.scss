@@ -1,5 +1,5 @@
 .container {
-    max-width: 120rem;
+    max-width: 115rem;
     width: 90%;
     margin: 0 auto;
 }
@@ -11,4 +11,5 @@
     padding: $separation/3.5 $separation/1.5;
     border-radius: $separation;
     font-weight: $fontBold;
+    display: inline-block;
 }
