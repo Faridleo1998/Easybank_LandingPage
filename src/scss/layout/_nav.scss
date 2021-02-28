@@ -1,4 +1,4 @@
-.nav{
+.nav {
     width: 100%;
 }
 
@@ -39,7 +39,7 @@
     background-color: $colorLightGray;
     padding: $separation/2.5 0;
     border-radius: 2%;
-    
+
     a {
         padding: $separation/3.6 0;
         color: $colorDarkBlue;
@@ -54,7 +54,7 @@
         margin: 0;
         flex-direction: row;
         width: inherit;
-        
+
         a {
             color: $colorGrayishBlue;
             padding: 0;
