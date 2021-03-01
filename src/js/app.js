@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const $nav__toggle = document.querySelector('.nav__toggle');
     const $nav__links = document.querySelector('.nav__links');
     const $backdrop = document.querySelector('.backdrop');
+    const screenWidth = screen.width;
+    const $main = document.querySelector('.main');
+    const heigthNav = $nav.offsetHeight;
 
     // Functions
     const showMenu = () => {
@@ -27,16 +30,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // App
+    $main.style.setProperty('padding-top', `${heigthNav}px`);
+
     $nav__toggle.addEventListener('click', toggleMenu);
 
     window.addEventListener('scroll', ()=> {
         let windowPosition = window.scrollY > 0;
         if (windowPosition) {
-            $nav.style.setProperty('position', 'fixed');
             $nav.classList.add('box-shadow');
-            closeMenu();
+            if (screenWidth < 1200) {
+                closeMenu();
+            }
         } else {
-            $nav.style.setProperty('position', 'relative');
             $nav.classList.remove('box-shadow');
         }
     })
