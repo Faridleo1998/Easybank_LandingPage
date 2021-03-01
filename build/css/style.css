@@ -352,7 +352,7 @@ html {
 body {
   font-family: "Public Sans", sans-serif;
   font-size: 1.8rem;
-  color: #9698a6;
+  color: #606166;
   background-color: #fafafa;
 }
 
@@ -373,7 +373,7 @@ h2 {
 }
 
 p {
-  color: #9698a6;
+  color: #606166;
   margin: 0;
   font-size: 1.5rem;
   line-height: 1.7;
@@ -512,7 +512,7 @@ img {
     width: inherit;
   }
   .nav__links a {
-    color: #9698a6;
+    color: #606166;
     padding: 0;
     font-size: initial;
   }
