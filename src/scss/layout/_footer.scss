@@ -62,6 +62,14 @@
     }
 }
 
+.social__svg {
+    &:hover {
+        path {
+            fill: $colorLimeGreen;
+        }
+    }
+}
+
 .footer__nav {
     display: flex;
     flex-direction: column;
@@ -101,6 +109,11 @@
 
         @include laptop {
             padding: 0;
+            width: fit-content;
+            
+            &:hover {
+                color: $colorLimeGreen;
+            }
         }
     }
 }
