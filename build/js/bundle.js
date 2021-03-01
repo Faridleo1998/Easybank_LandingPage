@@ -34,6 +34,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     $nav__toggle.addEventListener('click', toggleMenu);
 
+    $nav__links.addEventListener('click', ()=> {
+        if (screenWidth < 1200) {
+            closeMenu();
+        }
+    })
+
     window.addEventListener('scroll', ()=> {
         let windowPosition = window.scrollY > 0;
         if (windowPosition) {
