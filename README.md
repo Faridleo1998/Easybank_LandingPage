@@ -16,7 +16,7 @@ Sí deseas realizar este reto te invito a que descargues los archivos del proyec
 - Los scripts son compilados y minificados por medio de la herrienta Gulp.
 - Mejora en el performance del sitio gracias al uso de imagenes .webp (no incluidas en los archivos suministrados por [Frontend Mentor](https://www.frontendmentor.io)) y el uso de la librería modernizr.js.
 
-![](design/performance.png)
+![](./design/performance.png)
 
 ## Despliegue 📦
 
