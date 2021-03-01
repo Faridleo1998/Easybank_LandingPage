@@ -23,7 +23,7 @@ Sí deseas realizar este reto te invito a que descargues los archivos del proyec
 Te invito a conocer el sitio desplegado en las siguientes plataformas:
 
 - Github Pages: https://faridleo1998.github.io/Easybank_LandingPage/
-- Netlify: Próximamente!
+- Netlify: https://easybank-faridmoreno.netlify.app/
 
 ## Construido con 🛠️
 
