@@ -28,6 +28,13 @@
 .why__content {
     margin-top: $separation*1.1;
 
+    @include tablet {
+        @include grid(2, $separation) {
+            row-gap: 0;
+        }
+        padding-bottom: $separation;
+    }
+
     @include laptop {
         @include grid(4, $separation + .4);
         padding-bottom: $separation*2;
