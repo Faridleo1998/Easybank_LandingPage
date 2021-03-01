@@ -133,6 +133,7 @@
 }
 
 .footer__copyright {
+    color: $colorLightGrayishBlue;
     @include laptop {
         grid-area: footer__copyright;
         text-align: right;
