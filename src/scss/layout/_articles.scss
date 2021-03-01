@@ -13,6 +13,12 @@
 .articles__content {
     margin-top: $separation/1.5;
 
+    @include tablet {
+        @include grid(2, $separation) {
+            row-gap: 0;
+        }
+    }
+
     @include laptop {
         @include grid(4, $separation/2);
     }
@@ -49,6 +55,11 @@
     .article__title {
         margin: $separation/5 0;
         font-size: 1.6rem;
+
+        &:hover {
+            color: $colorLimeGreen;
+            cursor: pointer;
+        }
     }
 
     .article__text {
