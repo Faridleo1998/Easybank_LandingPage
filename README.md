@@ -12,17 +12,17 @@ Sí deseas realizar este reto te invito a que descargues los archivos del proyec
 - Sitio realizado con la metodología "Mobile First".
 - Sitio adaptable a diferentes tamaños de pantalla (responsive web design).
 - Aplicación de la metodología BEM (Block, Element, Modifier).
-- Los estilos están definidos en archivos .scss, posteriormente son compilados a CSS y minificados por medio de la herramienta Gulp.
+- Los estilos están definidos en archivos .scss que posteriormente son compilados a CSS y minificados por medio de la herramienta Gulp.
 - Los scripts son compilados y minificados por medio de la herrienta Gulp.
 - Mejora en el performance del sitio gracias al uso de imagenes .webp (no incluidas en los archivos suministrados por [Frontend Mentor](https://www.frontendmentor.io)) y el uso de la librería modernizr.js.
 
-![](./images/performance.png)
+<!-- ![](./images/performance.png) -->
 
 ## Despliegue 📦
 
 Te invito a conocer el sitio desplegado en las siguientes plataformas:
 
-- Github Pages: Próximamente!
+- Github Pages: https://faridleo1998.github.io/Easybank_LandingPage/
 - Netlify: Próximamente!
 
 ## Construido con 🛠️
@@ -31,7 +31,8 @@ Para la creación del sitio se usaron las siguientes tecnologías y herramientas
 
 - Tecnologías:
 
-    <img vertical-align="left" alt="HTML5" title="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" style="max-width:100%;">
+    <img vertical-align="left" alt="Git" title="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" style="max-width:100%">
+    <img vertical-align="left"  style="margin-left:20px" alt="HTML5" title="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" style="max-width:100%;">
     <img vertical-align="left" alt="CSS3" title="CSS3" width="26px" style="margin-left:20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" style="max-width:100%;">
     <img vertical-align="left" alt="SASS" title="SASS" width="26px" style="margin-left:20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" style="max-width:100%;">
     <img vertical-align="left" alt="JavaScript" title="JavaScript" width="26px" style="margin-left:20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" style="max-width:100%;">
@@ -40,7 +41,6 @@ Para la creación del sitio se usaron las siguientes tecnologías y herramientas
 - Herramientas (Gratis):
     - [Visual Studio Code](https://code.visualstudio.com/) --> Editor de texto.
     - [Responsively App](https://responsively.app/) --> Visualizar el sitio en distintos tamaños de pantalla.
-    <!-- Página para convertir jpg a webp -->
 
 ## Autor (es) ✒️
 
