@@ -32,6 +32,11 @@
 
     @include laptop {
         margin-bottom: $separation*1.5;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }
 
@@ -55,6 +60,7 @@
     .article__title {
         margin: $separation/5 0;
         font-size: 1.6rem;
+        transition: all .2s ease-in-out;
 
         &:hover {
             color: $colorLimeGreen;

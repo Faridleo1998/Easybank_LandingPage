@@ -63,6 +63,9 @@
 }
 
 .social__svg {
+    path {
+        transition: all .2s ease-in-out;
+    }
     &:hover {
         path {
             fill: $colorLimeGreen;
@@ -110,6 +113,7 @@
         @include laptop {
             padding: 0;
             width: fit-content;
+            transition: all .2s ease-in-out;
             
             &:hover {
                 color: $colorLimeGreen;
