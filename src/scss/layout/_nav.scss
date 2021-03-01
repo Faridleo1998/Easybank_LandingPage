@@ -34,15 +34,14 @@
 }
 
 .nav__links {
-    position: absolute;
+    position: fixed;
     display: none; // Display: flex para mostrar el menú movil
     flex-direction: column;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
     margin: $separation*1.7 auto 0 auto;
-    height: min-content;
+    /* height: min-content; */
     text-align: center;
     z-index: 100;
     /* Mostrar menu por encima del backdrop */
