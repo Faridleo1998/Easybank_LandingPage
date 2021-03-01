@@ -41,13 +41,18 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position-y: -12.9rem;
+            
+            @include tablet {
+                background-position-y: -20rem;
+                width: 60%;
+            }
 
 
             @include laptop {
                 width: 100%;
                 background-position-y: -11rem;
                 background-size: 62rem;
-                background-position-x: 29.5rem;
+                background-position-x: 32rem;
                 height: 61.7rem;
             }
 
@@ -90,9 +95,16 @@
     margin-top: $separation/1.3;
     margin-bottom: $separation*1.5;
 
+    @include tablet {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     @include laptop {
         width: 36%;
         text-align: left;
+        margin-left: 0;
     }
 
     p {
