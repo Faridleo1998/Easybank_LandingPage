@@ -926,6 +926,9 @@ img {
   }
 }
 
+.footer__copyright {
+  color: #f3f4f6;
+}
 @media (min-width: 1200px) {
   .footer__copyright {
     grid-area: footer__copyright;
