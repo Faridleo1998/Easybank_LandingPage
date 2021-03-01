@@ -478,15 +478,14 @@ img {
 }
 
 .nav__links {
-  position: absolute;
+  position: fixed;
   display: none;
   flex-direction: column;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
   margin: 8.5rem auto 0 auto;
-  height: min-content;
+  /* height: min-content; */
   text-align: center;
   z-index: 100;
   /* Mostrar menu por encima del backdrop */
