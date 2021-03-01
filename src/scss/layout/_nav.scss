@@ -1,5 +1,14 @@
 .nav {
     width: 100%;
+    background-color: $colorLightGray;
+    z-index: 100;
+}
+
+.box-shadow {
+    z-index: 100;
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(45, 47, 61, .5);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(45, 47, 61, .5);
+    box-shadow: 0px 0px 16px 1px rgba(45, 47, 61, .5);
 }
 
 .nav__content {
@@ -34,8 +43,10 @@
     margin: $separation*1.7 auto 0 auto;
     height: min-content;
     text-align: center;
-    z-index: 10;
+    z-index: 100;
+    /* Mostrar menu por encima del backdrop */
     width: 91%;
+    max-width: 40rem;
     background-color: $colorLightGray;
     padding: $separation/2.5 0;
     border-radius: 2%;
@@ -68,7 +79,6 @@
 
     @include laptop {
         display: flex;
-        margin-right: $separation/2;
     }
 
     @include desktop {
